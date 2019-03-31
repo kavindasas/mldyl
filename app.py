@@ -2,7 +2,7 @@ import flask
 from flask import request, jsonify, make_response, abort
 
 # import imp
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
